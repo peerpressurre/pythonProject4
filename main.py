@@ -15,6 +15,6 @@ elif num == 6:
     day = 'Saturday'
 elif num == 7:
     day = 'Sunday'
-print(f'{day}')
+print(f'{day}'
 
 
