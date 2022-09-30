@@ -8,4 +8,4 @@ elif num < 0:
 elif num == 0:
     res = 'Number is equal to zero'
 
-print(f'{res}')
+print(f'{res}'
