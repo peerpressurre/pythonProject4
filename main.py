@@ -1,20 +1,31 @@
-num = int(input('enter a day number->'))
-day = ''
+num = int(input('enter a month number->'))
+month = ''
 
 if num == 1:
-    day = 'Monday'
+    month = 'January'
 elif num == 2:
-    day = 'Tuesday'
+    month= 'February'
 elif num == 3:
-    day = 'Wednesday'
+    month = 'March'
 elif num == 4:
-    day = 'Thursday'
+    month = 'April'
 elif num == 5:
-    day = 'Friday'
+    month = 'May'
 elif num == 6:
-    day = 'Saturday'
+    month = 'June'
 elif num == 7:
-    day = 'Sunday'
-print(f'{day}'
+    month = 'July'
+elif num == 8:
+    month = 'August'
+elif num == 9:
+    month = 'September'
+elif num == 10:
+    month = 'October'
+elif num == 11:
+    month = 'November'
+elif num == 12:
+    month = 'December'
+
+print(f'{month}')
 
 
